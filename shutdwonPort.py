@@ -184,8 +184,7 @@ def checkAdminDown(session, portList):
                 break
     
     portList = [elem for elem in portList if elem not in adminDown]
-    print(adminDown)
-    print(portList)
+    
     print("--- Complete Gathering portList to be admin down")
     return portList
 
