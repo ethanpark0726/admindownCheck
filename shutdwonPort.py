@@ -5,14 +5,13 @@ import wexpect
 import openpyxl
 import datetime
 import time
-import re
 from openpyxl.styles import Border, Side, Font, Alignment, PatternFill
 
 fileName = 'routerPortInformation.xlsx'
 
 def getDeviceList():
     routerList = list()
-    device = requests.get('https://akips11.hsnet.ufl.edu/api-script?password=1r0nM@1d3n;function=web_export_device_list;', verify=False)
+    device = requests.get('https://akips11.hsnet.ufl.edu/api-script?password=supersecret;function=web_export_device_list;', verify=False)
 
     for elem in device.text.splitlines():
         line = elem.split(',')
