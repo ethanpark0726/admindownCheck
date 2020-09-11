@@ -198,7 +198,7 @@ if __name__ == '__main__':
     print()
     print('+-------------------------------------------------------------+')
     print('|    Router physical port security enhancement tool...        |')
-    print('|    Make admin down status                                   |')
+    print('|    Gather admin down status                                   |')
     print('|    Version 1.0.0                                            |')
     print('|    Compatible with C35xx, C37xx, C38xx, C65XX               |')
     print('|    Nexus 5K, 7K, 9K                                         |')
